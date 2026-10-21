@@ -38,6 +38,7 @@ h1::before{
     transform: translate(-50%, -50%);
     z-index: -1;
     font-size: 27vw;
+    opacity: 70%;
 }
 
 .pikachu{
@@ -135,6 +136,7 @@ footer{
     }
     h1::before{
     font-size: 26vw;
+    opacity: 50%;
     }
 }
 
@@ -145,6 +147,7 @@ footer{
     h1{
         font-size: 20vw;
         transform: translateY(38%);
+        
     }
     
     .hero-container{
@@ -188,6 +191,7 @@ footer{
     transform: translate(-50%, -50%);
     z-index: -1;
     font-size: 27vw;
+    opacity: 50%;
     }
     .hero-container p{
         width: 500px;
