@@ -160,20 +160,11 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         width: 500px;
+        position: absolute;
+        left: -2%;
     }
-        .hero-container h2{
-        font-size: 60px;
-        text-align: left;
-        font-weight: 200;
-    }
-
-    .hero-container p{
-        text-align: left;
-        font-weight: 100;
-        font-size: 20px;
-    }
-
     .hero-container a{
         width: 400px;
     }
@@ -211,8 +202,11 @@ footer{
         font-size: 3.9rem;
         text-align: left;
         font-weight: 200;
+        display: block;
         position: absolute;
         bottom: 24%;
+        width: 700px;
+        left: 15%;
     }
     header{
         font-size: 2.5rem;
