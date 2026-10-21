@@ -60,6 +60,7 @@ h1::before{
     font-size: 10.5vw;
     text-align: center;
     color: var(--color-secondary);
+    width: 350px;
 }
 
 .hero-container p{
@@ -77,6 +78,10 @@ h1::before{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+
+.logo{
+    font-size: 2rem;
 }
 
 footer{
