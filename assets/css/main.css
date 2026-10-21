@@ -87,3 +87,9 @@ h1::before{
         color: var(--color-secondary);
     }
 }
+
+@media (min-width: 1024px){
+    body{
+        padding: 32px 70px;
+    }
+}
