@@ -98,7 +98,7 @@ footer{
     }
     h1{
         font-size: 20vw;
-        transform: translateY(0%);
+        transform: translateY(38%);
     }
     .hero-container{
         flex-direction: row;
@@ -137,5 +137,44 @@ footer{
         display: block;
         text-align: center;
         color: var(--color-secondary);
+    }
+    h1::before{
+    content: 'Pikachu';
+    color: #FFF5;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    font-size: 27vw;
+    }
+    .hero-container p{
+        width: 500px;
+        display: block;
+        font-size: 1.2rem;
+        text-align: start;
+        color: var(--color-secondary);
+        position: absolute;
+        bottom: 15%;
+    }
+    .hero-container h2{
+        font-size: 3.9rem;
+        text-align: left;
+        font-weight: 200;
+        position: absolute;
+        bottom: 24%;
+    }
+    header{
+        font-size: 2.5rem;
+        align-items: center;
+        
+    }
+    .hero-container a{
+        position: absolute;
+        bottom: 15%;
+        right: 10%;
+        height: 100px;
+        width: 411px;
+        font-size: 3.5rem;
     }
 }
