@@ -122,6 +122,9 @@ footer{
     .hero-container a{
         width: 370px;
     }
+    .hero-container h2{
+        width: 700px;
+    }
     .pikachu{
         height: 500px;
         width: auto;
