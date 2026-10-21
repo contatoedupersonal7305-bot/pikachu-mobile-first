@@ -97,7 +97,7 @@ footer{
         font-size: 2.5rem;
     }
     h1{
-        font-size: 15vw;
+        font-size: 22vw;
         transform: translateY(38%);
     }
     .hero-container p{
@@ -124,6 +124,8 @@ footer{
     }
     .hero-container h2{
         width: 700px;
+        font-size: 4rem;
+        font-weight: 400;
     }
     .pikachu{
         height: 500px;
@@ -132,7 +134,7 @@ footer{
         bottom: 31%;
     }
     h1::before{
-    font-size: 20vw;
+    font-size: 26vw;
     }
 }
 
